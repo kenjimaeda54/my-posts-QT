@@ -15,6 +15,15 @@ public:
     My_posts(QWidget *parent = nullptr);
     ~My_posts();
 
+private slots:
+    void on_btn_info_clicked();
+
+    void on_btn_warning_clicked();
+
+    void on_btn_danger_clicked();
+
+    void on_btn_about_clicked();
+
 private:
     Ui::My_posts *ui;
 };
