@@ -6,8 +6,9 @@ Comprrender o framework QT, este framewok e largamente usado em aplicacoes KDE,M
 
 ## Feature
 - Botões em QT segue o princípio de signal e slot
+- Neste caso o signal seria os membro btn_info_clicked(),bt_warning_clicked(), slot e a caixa de MensageBox
 - Slot e quem vai receber o signal
-- No caso criei 4 botoes e ambos utilizam recursos do frameqork qt
+- No caso criei 4 botões e ambos utilizam recursos do frameqork qt
 - As caixas de mensagens e possível usar tags html
 - As construções dos componentes e feita em xml, com a IDE QTCREATOR abstrai o XML facilitando o trabalho
 - This neste caso e um ponteiro que esta apontando a memória desse objeto, assim posso manipular os membros
